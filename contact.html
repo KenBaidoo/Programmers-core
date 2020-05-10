@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+    <meta charset="utf-8">
+    <title>Programmers Core | Contact</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<style>
+		body{
+		background-color: #f4f4f4;
+		color: #555;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		line-height: 1.6em;
+		margin: 0;
+		}
+
+		#contact-body{
+		margin: 0;
+		padding-top: 100px;
+		padding-bottom: 0px;
+		text-align: center;
+		background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),url(images/hacking.jpg);
+		background-size: cover;
+		background-position: center;
+		}
+		
+		.contact-title{
+		margin-top: 100px;
+		color:
+		text-transform: uppercase;
+		transition: all 4s ease-in-out;
+		}
+		
+		.contact-title h1{
+		color: #ff5722;
+		}
+		
+		.contact-title h2{
+		font-size:16px;
+		}
+		
+		form{
+		margin-top: 50px;
+		transition: all 4s ease-in-out;
+		}
+		
+		.form-control{
+		width: 600px;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid gray;
+		color: #fff;
+		font-size: 18px;
+		margin-bottom: 16px;
+		}
+		
+		input{
+		height: 45px;
+		}
+		
+		form .submit{
+		background: #ff5722;
+		border-color: transparent;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		height: 50px;
+		margin-top: 20px;
+		}
+		
+		form .submit:hover{
+		background-color: #f44336;
+		cursor: pointer;
+		}
+		
+		#num{
+		font-weight: lighter;
+		font-size: 16px;
+		color: #fff;
+		}
+		
+		#lib-footer{
+		
+		}
+	</style>
+	
+  </head>
+  <body>
+  
+	<header id="main-header">
+		<div class="container logo-area">
+			<i><img id="logo" src="images/logo.png" alt=""></i>
+		</div>
+	</header>
+	
+		<nav id="main-nav">
+			<div class="container">
+				<ul id="nav-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="LibraryPage.html">Library</a></li>
+					<li><a href="BlogPage.html">Blog</a></li>
+					<li><a href="VlogPage.html">Vlog</a></li>
+					<li><a href="AboutPage.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div id="contact-body">
+			<div class="contact-title">
+				<h1>CONTACT US <br><i><img class="contact-icon" src="images/call.png" alt="">
+				</i><span id="num">+233 557-803-712 /+233 502-170-614</span></h1>
+			</div>
+			
+			<div class="contact-form">
+				<form id="contact-form" method="post" action="contact-form-handler">
+				<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+				<br>
+				<input name="email" type="text" class="form-control" placeholder="Your Email" required>
+				<br>
+				
+				<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+				<br>
+				
+				<input type="submit" class="form-control submit" value="SEND MESSAGE">
+				</form>
+			</div>
+		</div>
+		
+		<div class="clr"></div>
+		<div id="fixed-icons">
+			<i><a href="https://web.facebook.com/Programmers-Core-112672803773343"><img class="social-icons" src="images/facebook.png" alt=""></a></i> <br>
+			<i><a href="https://chat.whatsapp.com/I0HcbJodxV11OkvqA4yCL7"><img class="social-icons" src="images/whatsapp.png" alt=""></a></i> <br>
+			<!--<i><a href="#"><img class="social-icons" src="images/youtube.png" alt=""></a></i>-->
+		</div>
+	
+	<div id="main-footer">
+		<div class="container" id="lib-footer">
+			<footer>
+				copyright: &copy2020
+			</footer>
+		</div>
+	</div>
+	
+  </body>
+</html>
